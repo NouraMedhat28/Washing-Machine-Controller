@@ -5,3 +5,10 @@
 - Washing
 - Rinsing
 - Spinning
+<br/>
+#### The input clock can have 1 of 4 frequencies, encoded ny the clk_freq[1:0] input port. The frequnecies are:
+1. 1MHz
+2. 2MHz
+3. 4MHz
+4. 8MHz
+

@@ -19,8 +19,10 @@
 <b> How it works:</b>
 <br/>
 - The machine starts when a coin is deposited.
+<br/>
 - There is a double wash input, when it is turned on, a second wash and rinse to occur after completing the first rinse.
-- If the timer_pause flag is asserted during the spin cycle, the machine stops spinning until the flag is de-asserted. The machine is designed to stop when this flag is   raised only during the spin cycle.
+<br/>
+- If the timer_pause flag is asserted during the spin cycle, the machine stops spinning until the flag is de-asserted. The machine is designed to stop when this flag     is raised only during the spin cycle.
 <hr/>
 <b> The duration of each state:</b>
 <br/>

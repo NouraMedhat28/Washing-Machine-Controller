@@ -15,4 +15,19 @@
 3. 4MHz
 <br/>
 4. 8MHz
+<br/>
+<br/>
+#### How it works:
+<br/>
+- The machine starts when a coin is deposited.
+- There is a double wash input, when it is turned on, a second wash and rinse to occur after completing the first rinse.
+- If the timer_pause flag is asserted during the spin cycle, the machine stops spinning until the flag is de-asserted. The machine is designed to stop when this flag is raised only during the spin cycle.
+<br/>
+<br/>
+#### The duration of each state:
+<br/>
+1. Filling water takes 2minutes
+2. Washing takes 5minutes
+3. Rinsing takes 2minutes
+4. Spinning takes 1minutes
 

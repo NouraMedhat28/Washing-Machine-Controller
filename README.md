@@ -6,7 +6,7 @@
 - Rinsing
 - Spinning
 <hr/>
-<b> The input clock can have 1 of 4 frequencies, encoded ny the clk_freq[1:0] input port. The frequnecies are:</b>
+<b> The input clock can have 1 of 4 frequencies, encoded by the clk_freq[1:0] input port. The frequnecies are:</b>
 <br/>
 1. 1MHz
 <br/>

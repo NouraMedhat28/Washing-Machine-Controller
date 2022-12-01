@@ -45,7 +45,6 @@ always @(*) begin
     case (present_state)
       idle  :  begin
         if(coin_in) begin
-           // coin_in_value = coin_in;
             timer_enable = 'b1;
             next_state = filling;
             next_state_flag = 'b1;
